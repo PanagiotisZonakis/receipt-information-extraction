@@ -4,7 +4,7 @@ Extracts the **total amount** from a photo of a receipt.
 
 **Pipeline:** photo → YOLOv8 detects the receipt → crop → EasyOCR reads the text → spaCy Matcher finds the Total.
 
-![demo](demo.png)
+
 
 ## Results
 
