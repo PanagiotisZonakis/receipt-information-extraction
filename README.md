@@ -11,7 +11,7 @@ Extracts the **total amount** from a photo of a receipt.
 | Stage | Metric | Value |
 |---|---|---|
 | Receipt detection (YOLOv8n) | mAP50 on held-out test split | 0.954 |
-| End-to-end Total extraction | Exact match on N held-out receipts | X% |
+
 
 The extraction rules were tuned on a separate dev set; the test set was evaluated once at the end.
 
